@@ -1,0 +1,51 @@
+{'loss': 'mse', 'optimizer': 'adam', 'lr': 0.001, 'activation': 'relu', 'batch_size': 128, 'epochs': 30, 'pretrained': ''}
+Start Training
+[2023-01-14  20:36:14] Epoch: 1 - Train_Loss: 0.099610 - Train_Accuracy: 0.914229 - Valid_Loss: 0.038605 - Valid_Accuracy: 0.967115 - Train_Time: 00:00:32
+Validation loss decreased (inf --> 0.038605).  Saving model ...
+[2023-01-14  20:36:47] Epoch: 2 - Train_Loss: 0.027586 - Train_Accuracy: 0.976437 - Valid_Loss: 0.026389 - Valid_Accuracy: 0.974097 - Train_Time: 00:00:32
+Validation loss decreased (0.038605 --> 0.026389).  Saving model ...
+[2023-01-14  20:37:20] Epoch: 3 - Train_Loss: 0.015412 - Train_Accuracy: 0.987958 - Valid_Loss: 0.020925 - Valid_Accuracy: 0.978696 - Train_Time: 00:00:32
+Validation loss decreased (0.026389 --> 0.020925).  Saving model ...
+[2023-01-14  20:37:54] Epoch: 4 - Train_Loss: 0.009618 - Train_Accuracy: 0.993479 - Valid_Loss: 0.021314 - Valid_Accuracy: 0.977033 - Train_Time: 00:00:32
+EarlyStopping counter: 1 out of 5
+[2023-01-14  20:38:28] Epoch: 5 - Train_Loss: 0.008422 - Train_Accuracy: 0.994042 - Valid_Loss: 0.023936 - Valid_Accuracy: 0.972629 - Train_Time: 00:00:32
+EarlyStopping counter: 2 out of 5
+[2023-01-14  20:39:02] Epoch: 6 - Train_Loss: 0.009161 - Train_Accuracy: 0.992375 - Valid_Loss: 0.020873 - Valid_Accuracy: 0.975759 - Train_Time: 00:00:32
+Validation loss decreased (0.020925 --> 0.020873).  Saving model ...
+[2023-01-14  20:39:35] Epoch: 7 - Train_Loss: 0.006917 - Train_Accuracy: 0.994104 - Valid_Loss: 0.020099 - Valid_Accuracy: 0.978142 - Train_Time: 00:00:32
+Validation loss decreased (0.020873 --> 0.020099).  Saving model ...
+[2023-01-14  20:40:10] Epoch: 8 - Train_Loss: 0.006190 - Train_Accuracy: 0.994792 - Valid_Loss: 0.020956 - Valid_Accuracy: 0.976202 - Train_Time: 00:00:33
+EarlyStopping counter: 1 out of 5
+[2023-01-14  20:40:43] Epoch: 9 - Train_Loss: 0.005823 - Train_Accuracy: 0.994854 - Valid_Loss: 0.022052 - Valid_Accuracy: 0.973570 - Train_Time: 00:00:32
+EarlyStopping counter: 2 out of 5
+[2023-01-14  20:41:17] Epoch: 10 - Train_Loss: 0.005749 - Train_Accuracy: 0.994896 - Valid_Loss: 0.019910 - Valid_Accuracy: 0.976452 - Train_Time: 00:00:32
+Validation loss decreased (0.020099 --> 0.019910).  Saving model ...
+[2023-01-14  20:41:51] Epoch: 11 - Train_Loss: 0.004105 - Train_Accuracy: 0.996521 - Valid_Loss: 0.017573 - Valid_Accuracy: 0.979693 - Train_Time: 00:00:32
+Validation loss decreased (0.019910 --> 0.017573).  Saving model ...
+[2023-01-14  20:42:25] Epoch: 12 - Train_Loss: 0.005401 - Train_Accuracy: 0.994896 - Valid_Loss: 0.019640 - Valid_Accuracy: 0.976424 - Train_Time: 00:00:33
+EarlyStopping counter: 1 out of 5
+[2023-01-14  20:42:59] Epoch: 13 - Train_Loss: 0.004565 - Train_Accuracy: 0.995833 - Valid_Loss: 0.016846 - Valid_Accuracy: 0.980607 - Train_Time: 00:00:32
+Validation loss decreased (0.017573 --> 0.016846).  Saving model ...
+[2023-01-14  20:43:33] Epoch: 14 - Train_Loss: 0.003671 - Train_Accuracy: 0.996687 - Valid_Loss: 0.016706 - Valid_Accuracy: 0.980136 - Train_Time: 00:00:32
+Validation loss decreased (0.016846 --> 0.016706).  Saving model ...
+[2023-01-14  20:44:07] Epoch: 15 - Train_Loss: 0.004162 - Train_Accuracy: 0.995938 - Valid_Loss: 0.018819 - Valid_Accuracy: 0.977698 - Train_Time: 00:00:32
+EarlyStopping counter: 1 out of 5
+[2023-01-14  20:44:41] Epoch: 16 - Train_Loss: 0.004382 - Train_Accuracy: 0.995375 - Valid_Loss: 0.018386 - Valid_Accuracy: 0.977781 - Train_Time: 00:00:32
+EarlyStopping counter: 2 out of 5
+[2023-01-14  20:45:14] Epoch: 17 - Train_Loss: 0.002862 - Train_Accuracy: 0.996979 - Valid_Loss: 0.015544 - Valid_Accuracy: 0.981826 - Train_Time: 00:00:32
+Validation loss decreased (0.016706 --> 0.015544).  Saving model ...
+[2023-01-14  20:45:48] Epoch: 18 - Train_Loss: 0.002882 - Train_Accuracy: 0.997062 - Valid_Loss: 0.016443 - Valid_Accuracy: 0.980663 - Train_Time: 00:00:32
+EarlyStopping counter: 1 out of 5
+[2023-01-14  20:46:23] Epoch: 19 - Train_Loss: 0.002374 - Train_Accuracy: 0.997792 - Valid_Loss: 0.016558 - Valid_Accuracy: 0.979582 - Train_Time: 00:00:33
+EarlyStopping counter: 2 out of 5
+[2023-01-14  20:47:02] Epoch: 20 - Train_Loss: 0.003177 - Train_Accuracy: 0.996729 - Valid_Loss: 0.018182 - Valid_Accuracy: 0.978502 - Train_Time: 00:00:38
+EarlyStopping counter: 3 out of 5
+[2023-01-14  20:47:43] Epoch: 21 - Train_Loss: 0.002679 - Train_Accuracy: 0.997250 - Valid_Loss: 0.016019 - Valid_Accuracy: 0.981272 - Train_Time: 00:00:39
+EarlyStopping counter: 4 out of 5
+[2023-01-14  20:48:19] Epoch: 22 - Train_Loss: 0.002842 - Train_Accuracy: 0.997021 - Valid_Loss: 0.016527 - Valid_Accuracy: 0.980192 - Train_Time: 00:00:34
+EarlyStopping counter: 5 out of 5
+Early stopping
+Training Finished
+Start Testing
+[2023-01-14  20:48:20] - Test_Loss: 0.015529 - Test_Accuracy: 0.981013
+Testing Finished

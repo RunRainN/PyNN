@@ -1,0 +1,25 @@
+{'loss': 'ce', 'optimizer': 'adam', 'lr': 0.001, 'activation': 'relu', 'batch_size': 64, 'epochs': 30, 'pretrained': ''}
+Start Training
+[2023-01-15  00:27:03] Epoch: 1 - Train_Loss: 0.222224 - Train_Accuracy: 0.931438 - Valid_Loss: 0.119020 - Valid_Accuracy: 0.965675 - Train_Time: 00:01:02
+Validation loss decreased (inf --> 0.119020).  Saving model ...
+[2023-01-15  00:28:08] Epoch: 2 - Train_Loss: 0.096125 - Train_Accuracy: 0.970688 - Valid_Loss: 0.114118 - Valid_Accuracy: 0.967254 - Train_Time: 00:01:04
+Validation loss decreased (0.119020 --> 0.114118).  Saving model ...
+[2023-01-15  00:29:15] Epoch: 3 - Train_Loss: 0.066957 - Train_Accuracy: 0.980187 - Valid_Loss: 0.097706 - Valid_Accuracy: 0.974069 - Train_Time: 00:01:04
+Validation loss decreased (0.114118 --> 0.097706).  Saving model ...
+[2023-01-15  00:30:20] Epoch: 4 - Train_Loss: 0.052514 - Train_Accuracy: 0.983458 - Valid_Loss: 0.096334 - Valid_Accuracy: 0.977061 - Train_Time: 00:01:04
+Validation loss decreased (0.097706 --> 0.096334).  Saving model ...
+[2023-01-15  00:31:27] Epoch: 5 - Train_Loss: 0.044258 - Train_Accuracy: 0.986479 - Valid_Loss: 0.115639 - Valid_Accuracy: 0.971326 - Train_Time: 00:01:04
+EarlyStopping counter: 1 out of 5
+[2023-01-15  00:32:33] Epoch: 6 - Train_Loss: 0.037043 - Train_Accuracy: 0.988667 - Valid_Loss: 0.109034 - Valid_Accuracy: 0.974485 - Train_Time: 00:01:04
+EarlyStopping counter: 2 out of 5
+[2023-01-15  00:33:40] Epoch: 7 - Train_Loss: 0.031685 - Train_Accuracy: 0.991021 - Valid_Loss: 0.100070 - Valid_Accuracy: 0.976895 - Train_Time: 00:01:05
+EarlyStopping counter: 3 out of 5
+[2023-01-15  00:34:48] Epoch: 8 - Train_Loss: 0.028612 - Train_Accuracy: 0.991229 - Valid_Loss: 0.101977 - Valid_Accuracy: 0.979638 - Train_Time: 00:01:06
+EarlyStopping counter: 4 out of 5
+[2023-01-15  00:35:55] Epoch: 9 - Train_Loss: 0.024320 - Train_Accuracy: 0.992708 - Valid_Loss: 0.124343 - Valid_Accuracy: 0.975565 - Train_Time: 00:01:06
+EarlyStopping counter: 5 out of 5
+Early stopping
+Training Finished
+Start Testing
+[2023-01-15  00:35:57] - Test_Loss: 0.111685 - Test_Accuracy: 0.975518
+Testing Finished

@@ -1,0 +1,25 @@
+{'loss': 'ce', 'optimizer': 'adam', 'lr': 0.001, 'activation': 'relu', 'batch_size': 128, 'epochs': 30, 'pretrained': ''}
+Start Training
+[2023-01-14  20:27:40] Epoch: 1 - Train_Loss: 0.229011 - Train_Accuracy: 0.929500 - Valid_Loss: 0.112731 - Valid_Accuracy: 0.965675 - Train_Time: 00:00:32
+Validation loss decreased (inf --> 0.112731).  Saving model ...
+[2023-01-14  20:28:14] Epoch: 2 - Train_Loss: 0.085544 - Train_Accuracy: 0.973729 - Valid_Loss: 0.093907 - Valid_Accuracy: 0.972629 - Train_Time: 00:00:32
+Validation loss decreased (0.112731 --> 0.093907).  Saving model ...
+[2023-01-14  20:28:48] Epoch: 3 - Train_Loss: 0.058688 - Train_Accuracy: 0.981417 - Valid_Loss: 0.109117 - Valid_Accuracy: 0.970357 - Train_Time: 00:00:32
+EarlyStopping counter: 1 out of 5
+[2023-01-14  20:29:22] Epoch: 4 - Train_Loss: 0.047741 - Train_Accuracy: 0.985083 - Valid_Loss: 0.089134 - Valid_Accuracy: 0.974180 - Train_Time: 00:00:32
+Validation loss decreased (0.093907 --> 0.089134).  Saving model ...
+[2023-01-14  20:29:56] Epoch: 5 - Train_Loss: 0.039489 - Train_Accuracy: 0.987688 - Valid_Loss: 0.116303 - Valid_Accuracy: 0.971465 - Train_Time: 00:00:32
+EarlyStopping counter: 1 out of 5
+[2023-01-14  20:30:30] Epoch: 6 - Train_Loss: 0.031305 - Train_Accuracy: 0.990187 - Valid_Loss: 0.109066 - Valid_Accuracy: 0.973792 - Train_Time: 00:00:33
+EarlyStopping counter: 2 out of 5
+[2023-01-14  20:31:04] Epoch: 7 - Train_Loss: 0.028410 - Train_Accuracy: 0.990646 - Valid_Loss: 0.112495 - Valid_Accuracy: 0.972407 - Train_Time: 00:00:33
+EarlyStopping counter: 3 out of 5
+[2023-01-14  20:31:38] Epoch: 8 - Train_Loss: 0.024398 - Train_Accuracy: 0.992146 - Valid_Loss: 0.117395 - Valid_Accuracy: 0.973044 - Train_Time: 00:00:32
+EarlyStopping counter: 4 out of 5
+[2023-01-14  20:32:12] Epoch: 9 - Train_Loss: 0.020307 - Train_Accuracy: 0.993792 - Valid_Loss: 0.111355 - Valid_Accuracy: 0.976341 - Train_Time: 00:00:33
+EarlyStopping counter: 5 out of 5
+Early stopping
+Training Finished
+Start Testing
+[2023-01-14  20:32:13] - Test_Loss: 0.111623 - Test_Accuracy: 0.976958
+Testing Finished
