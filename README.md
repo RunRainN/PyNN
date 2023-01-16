@@ -1,7 +1,10 @@
 # PyNN
 ## 基于Numpy的简单神经网络框架
-本项目设计的简单神经网络框架PyNN具备全连接神经网络的训练条件，代码风格类似PyTorch，框架结构图如图所示。
+本项目设计的简单神经网络框架PyNN具备全连接神经网络的训练条件，代码风格类似PyTorch。
+
+### 框架结构图
 ![PyNN](https://user-images.githubusercontent.com/54665114/212606272-72ce18fa-fd72-4346-9756-0a330ba343b9.png)
+
 ### PyNN特点
 
 1. 提供了多种激活函数、损失函数和优化方法，可按如下代码调用：
@@ -57,6 +60,9 @@ for epoch in range(1, epochs + 1):
     valid_loss, valid_accuracy = valid_model(valid_loader, model, classification=True)  # 验证模型
     graph(train_loss, train_accuracy, valid_loss, valid_accuracy)  # 绘图
 ```
+效果如下：
+![graph](https://user-images.githubusercontent.com/54665114/212611500-cb9d07d7-34d5-4b6b-8acc-a4c597dbad0a.png)
+
 ### PyNN文件结构及说明
 - PyNN	神经网络框架文件
     - pynn	神经网络框架基础文件
