@@ -61,43 +61,43 @@ for epoch in range(1, epochs + 1):
 - PyNN	神经网络框架文件
     - pynn	神经网络框架基础文件
         - nn.py	网络层定义
-            Layer	层基类
-            Parameters	权重参数类
-            Linear	全连接层/线性层/Affine层
-            Sigmoid	Sigmoid激活函数层
-            ReLU	ReLU激活函数层
-            Sequential	层容器
-            MSELoss	均方误差损失函数层
-            CrossEntropyLoss 交叉熵损失函数层（带Softmax）
+            - Layer	层基类
+            - Parameters	权重参数类
+            - Linear	全连接层/线性层/Affine层
+            - Sigmoid	Sigmoid激活函数层
+            - ReLU	ReLU激活函数层
+            - Sequential	层容器
+            - MSELoss	均方误差损失函数层
+            - CrossEntropyLoss 交叉熵损失函数层（带Softmax）
         - optim.py	优化器定义
-            Optim	优化器基类
-            SGD	带momentum的SGD优化器
-            Adagrad	Adagrad优化器
-            Adam	Adam优化器
+            - Optim	优化器基类
+            - SGD	带momentum的SGD优化器
+            - Adagrad	Adagrad优化器
+            - Adam	Adam优化器
         - data.py	数据集及数据加载器定义
-            Dataset	数据集类
-            BatchSampler	批采样器
-            collate_fn	数据组合函数
-            _DataLoaderIter	数据加载器迭代类
-            DataLoader	数据加载器
-            random_split	数据集划分函数
+            - Dataset	数据集类
+            - BatchSampler	批采样器
+            - collate_fn	数据组合函数
+            - _DataLoaderIter	数据加载器迭代类
+            - DataLoader	数据加载器
+            - random_split	数据集划分函数
         - net.py	网络模型定义
-            Net	网络模型基类
+            - Net	网络模型基类
         - process.py	训练、验证、测试过程相关实现
-            train_model	模型训练函数
-            valid_model	模型验证函数
-            test_model	模型测试函数
-            EarlyStopping	早停法实现
-            Log	日志保存
+            - train_model	模型训练函数
+            - valid_model	模型验证函数
+            - test_model	模型测试函数
+            - EarlyStopping	早停法实现
+            - Log	日志保存
         - preprocess.py	数据预处理算法实现
-            one_hot_encoder	独热化
-            min_max_normalization	min-max归一化
+            - one_hot_encoder	独热化
+            - min_max_normalization	min-max归一化
         - functional.py	运算函数实现
-            sigmoid	Sigmoid函数
-            relu	ReLU函数
-            softmax	Softmax函数
+            - sigmoid	Sigmoid函数
+            - relu	ReLU函数
+            - softmax	Softmax函数
         - visualization.py	训练过程可视化实现
-            Graph	图窗类
+            - Graph	图窗类
     - examples	案例文件
         - test_fcnn.py	FCNN测试
         - mnist	MNIST手写数字识别
