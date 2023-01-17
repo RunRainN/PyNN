@@ -1,5 +1,5 @@
 """
-文件：visualization.py
+文件：nn.py
 作者：RunRain
 日期：2023/1/12
 描述：网络层定义
